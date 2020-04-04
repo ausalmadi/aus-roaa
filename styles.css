@@ -1,0 +1,10 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 12% 8% 30% 30% 8% 12%;
+}
