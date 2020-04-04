@@ -8,3 +8,47 @@ body, html {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 12% 8% 30% 30% 8% 12%;
 }
+.page1-navbar {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1;
+    padding-top: 20px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+   
+
+.mr-auto {
+    margin: auto;
+}
+
+.lb {
+    color: blue;
+}
+
+.hd {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+}
+
+    .nav-items > ul {
+        padding: 0;
+    }
+
+.inactive-btn-A {
+    padding: .60rem 1rem;
+    text-decoration: none;
+}
+
+
+.bat {
+    color: black;
+}
