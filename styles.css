@@ -2,16 +2,16 @@ body, html {
     padding: 0px;
     margin: 0px;
 }
+
 .container {
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 12% 8% 30% 30% 8% 12%;
 }
+
 /*colors*/
 /* this is for the fotter of the 1st page */
-
-
 .co-bg-light-blue {
     background-color: #f3f9fd;
 }
@@ -19,16 +19,19 @@ body, html {
 .co-bg-blue {
     background-color: #3498db;
 }
+
 .page1-navbar {
     text-align: center;
     grid-column: 1/4;
     grid-row: 1;
     padding-top: 20px;
 }
+
 .nav-bar {
     display: flex;
     align-items: center;
-}
+
+} 
 
 .nav-btn {
     grid-column: 4/5;
@@ -37,11 +40,10 @@ body, html {
     padding-top: 7px;
 }
 
+
 .mr-auto {
     margin: auto;
 }
-
-
 
 .hd {
     display: flex;
@@ -80,7 +82,7 @@ body, html {
     background-color: #3498db;
     color: black;
     border: 2px solid ;
-        border: 2px solid white;
+    border: 2px solid white;
     border-radius: 40px;
     padding: 14px 80px;
 }
@@ -89,6 +91,21 @@ body, html {
     background-color: white;
     color: #008CBA;
     border: 2px solid #008CBA;
+}
+
+.button-start-2 {
+    background-color: white;
+    color: #008CBA; 
+    border: 2px solid;
+    border: 2px solid #008CBA;
+    border-radius: 40px;
+    padding: 14px 80px;
+}
+
+.button-start-2:hover{
+    background-color: #3498db;
+    color: black;
+    border: 2px solid white;
 }
 
 .dropdown {
