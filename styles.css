@@ -52,3 +52,12 @@ body, html {
 .bat {
     color: black;
 }
+/*colors*/
+
+.co-bg-light-blue { /* this is for the fotter of the 1st page */
+    background-color: #f3f9fd;
+}
+
+.co-bg-blue {
+    background-color: #3498db;
+}
