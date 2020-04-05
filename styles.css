@@ -65,10 +65,9 @@ body, html {
 .button-start {
     background-color: #3498db;
     color: black;
-
     border: 2px solid white;
-    border-radius: 40px;
-    padding: 14px 80px;
+    border-radius: 45px;
+    padding: 14px 55px;
 }
 
 .button-start:hover {
@@ -77,20 +76,6 @@ body, html {
     border: 3px solid #008CBA;
 }
 
-.button-start-2 {
-    background-color: white;
-    color: #008CBA; 
-    border: 2px solid;
-    border: 3px solid #008CBA;
-    border-radius: 45px;
-    padding: 14px 60px;
-}
-
-.button-start2:hover {
-    background-color: #008CBA;
-    color: white;
-    border: 3px solid white;
-}
 
 .grd {
     padding-left:10%;
@@ -250,12 +235,12 @@ display: block;
     border: 3px solid white;
 }
 
-.button-start2 {
+.button-start-2 {
     background-color: white;
     color: black;
     border: 3px solid #3498db;
     border-radius: 45px;
-    padding: 14px 60px;
+    padding: 14px 55px;
 }
 
 .all-box {
