@@ -30,7 +30,16 @@ body, html {
 .nav-bar {
     display: flex;
     align-items: center;
+
 } 
+
+.nav-btn {
+    grid-column: 4/5;
+    grid-row: 2;
+    padding-right: 5%;
+    padding-top: 7px;
+}
+
 
 .mr-auto {
     margin: auto;
@@ -61,6 +70,14 @@ body, html {
     color: black;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .button-start {
     background-color: #3498db;
     color: black;
