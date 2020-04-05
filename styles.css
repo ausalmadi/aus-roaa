@@ -15,7 +15,7 @@ body, html {
 .co-bg-light-blue {
     background-color: #f3f9fd;
 }
-
+ 
 .co-bg-blue {
     background-color: #3498db;
 }
@@ -244,7 +244,7 @@ display: block;
 }
 
 .all-box {
-    display: inline-flex;
+    display: flex;
     grid-column: 1/5;
     grid-row: 3;
     justify-self: center;
@@ -259,6 +259,14 @@ display: block;
     align-self: end;
     text-align: center;
 }
+
+.blogger-title-2 {
+    grid-column: 1/5;
+    justify-self: center;
+    align-self: end;
+    text-align: center;
+}
+
 
 .blog-item {
     margin: 0px 1rem;
@@ -286,7 +294,7 @@ display: block;
 }
 
 .check-2 {
-    margin-top: 70%;
+    margin-top: 55%;
 }
 
 .margin-spacing {
@@ -296,6 +304,85 @@ display: block;
 .nav-btn-2 {
     padding-top: 5%;
 }
+
+.box-1 {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 2/6;
+    justify-self: center;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-2 {
+    display: block;
+    grid-column: 2/3;
+    grid-row: 2/6;
+    justify-self: center;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-3 {
+    display: block;
+    grid-column: 3/4;
+    grid-row: 2/6;
+    justify-self: center;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-4 {
+    display: block;
+    grid-column: 4/5;
+    grid-row: 2/6;
+    justify-self: center;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.pg4-img1 {
+    background-image: url(images/omges/ball.ping);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.pg4-img2 {
+}
+
+.pg4-img3 {
+}
+
+.pg4-img4 {
+}
+/* isse this to creat box shadw
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    width: 100%
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}/
 
 /*  Font classes and decorations START here */
 .font-thin {
@@ -337,8 +424,10 @@ display: block;
 
 .font-two-md {
     font-family: sans-serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
+
+
 /*end of roaa css*/
 
 
