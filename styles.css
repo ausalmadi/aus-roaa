@@ -666,6 +666,34 @@ div.container {
     .sp{
         padding:1%;
     }
-    @media(max-width:568px){
-         .nav-bar{display:none}
+
+@media only screen and (min-width: 777px) and (max-width: 992px) {
+    .nav-bar {
+        display: none
     }
+    
+    .wi {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 776px) {
+    .nav-bar {
+        display: none
+    }
+    
+    .wi {
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 300px) and (max-width:501px) {
+    .nav-bar {
+        display: none
+    }
+
+    .wi {
+        width: 100%;
+    }
+}
