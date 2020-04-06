@@ -443,15 +443,62 @@ display: block;
 }
 
 .grd-pg5-img {
+    display:block;
     grid-column: 3;
     grid-row: 3;
     padding-left: 10%;
     padding-top: 15%;
     padding-bottom:10%;
     height:15%;
-  
-   
 }
+
+.grd-pg5-img-2 {
+    display:none;
+
+}
+
+#icon-language {
+    font-size: 45px;
+    color: white;
+    grid-column: 3;
+    grid-row: 3;
+    padding-left: 13%;
+    padding-top: 13%;
+    padding-bottom: 11%;
+    height: 15%;
+}
+
+#icon-language:hover {
+    font-size: 45px;
+    color: #3498db;
+    grid-column: 3;
+    grid-row: 3;
+    padding-left: 13%;
+    padding-top: 13%;
+    padding-bottom: 11%;
+    height: 15%;
+}
+
+.icon-border {
+    background-color: #3498db;
+    border: 3px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
+.icon-border:hover {
+    background-color: white;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
 .pg4-img1 {
    
 }
