@@ -675,6 +675,9 @@ div.container {
     .wi {
         width: 100%;
     }
+    .open-slide {
+        display: none
+    }
 }
 
 
@@ -686,6 +689,7 @@ div.container {
     .wi {
         width: 100%;
     }
+    .open-slide{display:none}
 
 }
 @media only screen and (min-width: 300px) and (max-width:501px) {
